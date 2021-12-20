@@ -7,9 +7,18 @@ int main()
     cout<<"Hello World";                                //This line displays a message "Hello World" onto the screen 
     cout<<"This is a C++ class.";                       //This line displays another message onto the screen
 
-    /* This is is a block
-       This is another block comment inside comment */              //Can span multible lines using '/*'
+    /* This is a comment that 
+       covers two lines. */              //Can span multible lines using '/*'
 
+    /*
+    ** It is a very common style to put the opening token
+    ** on a line by itself, followed by the documentation 
+    ** and then the closing token on a separate line. Some 
+    ** programmers also like to put asterisks at the beginning
+    ** of each line to clearly mark the comment.
+    */
+    
+    //end of example of comments
     
     int a = 5;                                           //int is used to show that 'a' is an integer value
     int b = 6;
