@@ -55,12 +55,16 @@ int main()
     
     
         
-cout<<'\n'<<sizeof(76542L);
+        cout<<'\n'<<sizeof(76542L);
 
         cout<<'\n'<<"Hello World\n";           //in new line, single qoute
-    cout<<"This is a C++ class.";
+        cout<<"This is a C++ class.";
 
-        cout<<'\n'<<"'Good' Morning";          //'Good' Morning
-        cout<<endl<<"\"Good\" Morning";        //escape sequence - escape the original meaning
+         // String Constants
+    cout<<"";                   //Empty String
+    cout<<"h";                  //Single length string
+    cout<<"Hello World\n";      //String followed by new line
+    cout<<"'Good' Morning";     //'Good' Morning
+    cout<<"\"Good\" Morning";   //"Good" Morning
         return 0;
 }
