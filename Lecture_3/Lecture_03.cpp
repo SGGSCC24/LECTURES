@@ -23,7 +23,7 @@ int main()
     int a = 5;                                           //int is used to show that 'a' is an integer value
     int b = 6;
 
-    cout<<a + b;                                        
+    cout<<a + b;                                         //to use cout it is necessary to include iostream
 
     int x_yz$ = 5;                                       //we can use alphabets, _ and underscores as the name of the variables
 
